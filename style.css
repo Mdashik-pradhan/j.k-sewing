@@ -1,0 +1,103 @@
+body {
+    background-color: #fff;
+}
+
+.brand-color {
+    color: #0A4A3B;
+}
+
+.nav-brand-text {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.desc {
+    letter-spacing: 6px;
+    font-size: 14px;
+}
+
+nav ul li {
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all linear .3s;
+    text-transform: uppercase;
+}
+nav ul li:hover {
+    background-color: rgb(231, 54, 0);
+    border-radius: 5px;
+}
+/* Carousel */
+
+.carousel-image {
+    height: 580px;
+}
+.carousel-bg {
+    background-color: #333;
+}
+.carousel-caption-div h1{
+    color: #0A4A3B;
+    font-size: 60px;
+    font-weight: 700;
+}
+.carousel-caption-div p{
+    letter-spacing: 8px;
+}
+/* Products */
+
+.product-card img{
+    height: 150px;
+}
+.product-card {
+    height: 400px;
+}
+/* About */
+
+.about-img {
+    width: 100%;
+}
+
+/* Management */
+.management-card-img {
+    border-radius: 50%;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+/* Contact Info */
+
+.contact-container .contact-div i {
+    font-size: 50px;
+}
+.contact-container  .contact-div:hover i {
+    color: rgb(20, 133, 0);
+}
+
+/* Notice */
+.notice li {
+    padding: 3px 10px;
+}
+
+.notice li:hover {
+    background-color: goldenrod;
+    color: #fff;
+}
+
+/* Footer */
+
+footer {
+    background-color: #233131;
+}
+
+.social-icons> .icon {
+    font-size: 20px;
+    padding: 10px;
+    transition: all linear .3s;
+}
+.social-icons .icon:hover {
+    background-color: #fff !important;
+    color: #333;
+    transform: rotateY(45deg);
+}
